@@ -1,21 +1,8 @@
-# pttime
+# CC-小咖
 
-> A Vue.js project
-
-## Build Setup
-
-``` bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+## 项目介绍
+我是一位95后创业青年，怀揣着伟大的梦想，踏入的互联网！
+CC小咖为此而诞生，我将我大学时兼职接单的资源汇集到CC小咖APP中，为我们现有的用户提供给便捷的接单服务，现在CC小咖共服务用户1万人，大多以学生兼职为主。
+找寻您梦寐以求的兼职岗位，来场真正的兼职体验。
+CC小咖致力于为兼职者提供个性化、专业化的兼职信息服务平台，让求职者轻松做兼职，随时拿工资！
+下载CC小咖，一起撸起袖子奋斗吧！
