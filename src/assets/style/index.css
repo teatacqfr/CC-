@@ -1,0 +1,226 @@
+.mu-text-field-input {height:0.853333rem;}
+.mu-input {font-size:0.373333rem; width:5rem; min-height:1.28rem; padding-bottom:0.32rem; margin-bottom:0; padding-top:0.106667rem;}
+.mu-raised-button {font-size:0.373333rem; min-width:2.346667rem; height:0.96rem; line-height:0.96rem;}
+
+.login_box{
+	width: 100%;
+    height: 100%; 
+    background-image: url(../../../static/images/login/login_bg_green.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color:#efeff4;
+}
+.login_box .head_box {
+    width: 2.777rem;
+    height: 2.777rem;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size:0.8rem;
+    color:#2c8cf9;
+}
+.login_box .head_box img {width:0.8rem;}
+.login_box .head_pic {
+    width: 100%;
+    height: 2.777rem;
+    margin-top: 16%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: absolute;
+    top: -3.48rem;
+}
+.login_box .mui-content {
+    position: absolute;
+    top: 4.3rem;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    width: 95%;
+    height:7.866667rem;
+    padding-top:1.6rem;
+    background: url(../../../static/images/login/login_bg.png) no-repeat;
+    background-size: 100%;
+    background-color: transparent;
+    z-index:100;
+}
+.inp_box {padding-left:2rem; margin-top:0.4rem;}
+.inp_box .left {width:0.533333rem; margin-top:0.3rem; margin-right:0.4rem;}
+.inp_box .material-icons {color:#2c8cf9; font-size:0.64rem;}
+.login_box .goRes {font-size:0.373333rem; color:#2c8cf9; text-align:right; padding-right:1.5rem; line-height:1rem;}
+.login_box .btn_box {text-align:center; padding-top:0.4rem;}
+.login_box .mu-button {background-color:#fff; color:#2c8cf9; width:4.8rem;}
+.login_box .forgetpsd {text-align:center; padding-top:14.4rem; font-size:0.373333rem; color:#888;}
+
+.boot {position:fixed; left:0; bottom:0; width:100%; z-index:10000;}
+.mu-bottom-nav {height:1.493333rem;}
+.mu-bottom-item {min-width:2.133333rem; max-width:4.48rem; padding:0.16rem;}
+.mu-bottom-item-active {padding-top: 0.16rem; padding-bottom:0.133333rem;}
+.material-icons {font-size:0.64rem;}
+.mu-bottom-item-icon {width:0.64rem;}
+.mu-bottom-item-active .mu-bottom-item-text {font-size:0.373333rem;}
+.mu-bottom-item-text {font-size:0.32rem;}
+
+.slide_box, .slide_box img, .mu-carousel {height:5.013333rem; width:10rem;}
+.mu-carousel-indicator-icon {width:0.266667rem; height:0.266667rem;}
+
+.mu-appbar {padding:0.533333rem 0.4rem 0; height:1.76rem; position:fixed; top:0; left:0; width:100%; z-index:1000;}
+.mu-appbar-left, .mu-appbar-right {height:auto;}
+.mu-appbar-left {padding-right:0; position:absolute;}
+.mu-appbar-title {font-size:0.48rem; line-height:1.226667rem; padding:0; text-align:center;}
+.point {font-size:0.373333rem;}
+.point .mu-icon {display:inline-block; vertical-align:middle;}
+.back_arrow {font-size:0.9rem;}
+
+.mu-list {padding:0;}
+.mu-list-three-line .mu-item {height:2.346667rem;}
+.mu-item-title {font-size:0.426667rem; height:0.64rem; line-height:0.64rem;}
+.mu-item-sub-title {font-size:0.373333rem;}
+
+.mint-indexlist-content {font-size:0.373333rem;}
+.mint-indexlist-nav {color:#2c8cf9;}
+.mint-indexsection-index {padding:0.133333rem; margin:0.2rem 0 0.2rem 0.4rem; background:#fff; display:block; width:0.533333rem; height:0.533333rem; text-align:center; line-height:0.333333rem; border-radius:50%; color:#fff; background-color:#2c8cf9;}
+.mint-indexlist-navitem {font-size:0.32rem;}
+.mint-indexlist-indicator {min-width:1.333333rem; padding:0 0.106667rem; width:auto; height:1.333333rem; line-height:1.333333rem; font-size:0.426667rem;}
+
+.city_box {display:inline-block; width:2.4rem; height:0.666667rem; margin:0.373333rem; margin-top:0; border-radius:0.32rem; color:#666; text-align:center; line-height:0.666667rem; border:0.026667rem solid #dadada;}
+.city_title {line-height:1.066667rem;}
+.city_title img {height:0.48rem; display:inline-block; vertical-align:middle; margin:0 0.2rem 0 0.4rem;}
+
+.zn_list {font-size:0.32rem; padding:0.2rem 0.4rem;}
+.zn_list li {width:2.133333rem; height:1.8rem; border-radius:0.16rem; margin-right:0.2rem; color:#fff; text-align:center;}
+.zn_list li .tel {display:block; width:2.133333rem; height:1.8rem; color:#fff;}
+.zn_list li:nth-of-type(1) {background:#86dcc5;}
+.zn_list li:nth-of-type(1) img {background:#70d758;}
+.zn_list li:nth-of-type(2) {background:#ffa0a7;}
+.zn_list li:nth-of-type(2) img {background:#e55982;}
+.zn_list li:nth-of-type(3) {background:#acdbe8;}
+.zn_list li:nth-of-type(3) img {background:#00bee2;}
+.zn_list li:nth-of-type(4) {margin-right:0; background:#ffd3a9;}
+.zn_list li:nth-of-type(4) img {background:#ffa81a;}
+.zn_list li img {width:0.8rem; height:0.8rem; padding:0.15rem; margin:0.2rem 0; border-radius:50%;}
+.line10 {width:10rem; height:0.266667rem; background:#efeff4;}
+
+.mu-tab {font-size:0.373333rem; min-width:1.92rem; max-width:3.52rem;}
+.mu-tab-wrapper {color:#333; min-height:1.28rem; padding:0.1rem 0.4rem;}
+.mu-tab-active .mu-tab-wrapper {color:#2c8cf9;}
+.mu-tab-link-highlight {height:0.053333rem;}
+.mu-refresh-control {width:0.533333rem; height:0.533333rem;}
+.mu-circle-wrapper {width:0.32rem!important; height:0.32rem!important}
+.mu-infinite-scroll {height:0.533333rem;}
+.mu-infinite-scroll-text {font-size:0.32rem; margin-left:0.32rem;}
+.yx_set {font-size:0.32rem; color:#2c8cf9; position:absolute; right:0.4rem; top:0.373333rem;}
+.mu-tab-link-highlight {background-color:#2c8cf9!important;}
+
+.job_list li {font-size:0.373333rem; line-height:0.6rem; padding:0.2rem 0.4rem; border-bottom:1px solid #eee;}
+.job_list li:nth-of-type(1) {border-top:1px solid #eee;}
+.job_list li .company_pic {width:1.6rem; height:1.6rem; margin:0.2rem 0.4rem 0.2rem 0;}
+.job_list li .title {max-width:5.8rem;}
+.job_list li .istop, .status {padding:0 0.2rem; font-size:0.32rem; height:0.5rem; line-height:0.5rem; margin-left:0.133333rem; border:0.026667rem solid #fa8d4a;color:#fa8d4a; background-color:#feeee4; text-align:center; border-radius:0.213333rem;}
+.job_list li .money {color:#feb400; font-size:0.426667rem;}
+.job_list .job_con {padding-top:0.1rem;}
+.job_list .job_con div.clear {width:7.2rem;}
+.job_list .mission {line-height:0.9rem;}
+.job_list .mission .title {max-width:5rem;}
+.mu-avatar {width:1.066667rem!important; height:1.066667rem!important;}
+.mu-badge {font-size:0.32rem; padding:0 0.16rem; border-radius:0.08rem;}
+.nodata_pic {width:6.4rem; display:block; margin:2.5rem auto 0;}
+.history .mu-primary-color {margin-right:0.266667rem;}
+.history .check {font-size:0.32rem; color:#2c8cf9; text-decoration:underline;}
+.history li .title {max-width:8rem;}
+.history li {border-bottom:none;}
+
+.v-modal {top:15%; z-index:200000!important;}
+.mint-popup-top {top:15%; z-index:200005!important;}
+
+.select_list li {font-size:0.373333rem; color:#666; line-height:0.933333rem; line-height:0.933333rem; width:33.2%; text-align:center; border-right:1px solid rgba(0, 0, 0, 0.12); border-bottom:1px solid rgba(0, 0, 0, 0.12);}
+.select_list li:nth-of-type(3) {border-right:0;}
+.select_list li .material-icons {display:inline-block; vertical-align:middle;}
+.select_list li.active {color:#2c8cf9;}
+
+.choose_box {width:10rem; font-size:0.373333rem;}
+.choose_box .btn_box {width:10rem; text-align:center; padding:0.4rem 0;}
+.choose_box .btn_box .mu-raised-button.mu-button-full-width {border-radius:0.16rem; width:90%;}
+.mu-radio-wrapper {width:5rem; height:1.333333rem; }
+.mu-radio-ripple-wrapper {width:1.28rem; height:1.28rem; top:-0.32rem; left:-0.32rem;}
+.mu-radio-icon {width:0.64rem; height:0.64rem; margin-right:0.213333rem; margin-left:0.4rem;}
+.mu-radio-svg-icon {width:0.64rem; height:0.64rem;}
+.mu-radio-label {font-size:0.373333rem; width:3.5rem;}
+
+.detail {padding:0.2rem 0;}
+.detail .top {font-size:0.426667rem; padding:0 0.4rem;}
+.detail .top .title {line-height:0.8rem; color:#333;}
+.detail .top .info, .detail .top .money {line-height:0.8rem;}
+.detail .top .money .fl {color:#feb400;}
+.detail .top .money .fr {color:#666; font-size:0.373333rem;}
+.detail .top .info {font-size:0.32rem; color:#999;}
+.detail .top .info .small {border-right:1px solid #999; height:0.32rem; line-height:0.32rem; margin-top:0.24rem; margin-right:0.2rem; padding-right:0.2rem;}
+.detail .top .info .small:nth-of-type(3) {border-right:none;}
+.detail .top .title .con {max-width:7rem; display:inline-block; vertical-align:middle;}
+.detail .top .title .job_con {max-width:9.2rem;}
+.detail .top .status {margin-left:0.4rem;}
+.detail .content {font-size:0.373333rem; color:#666; padding:0.2rem 0.4rem 0.1rem 0.4rem;}
+.detail .mTitle {font-size:0.426667rem; line-height:0.426667rem; padding-top:0.4rem; padding-left:0.4rem;}
+.detail .mTitle em, .resume_box .title em {display:inline-block; height:0.43rem; width:0.106667rem; background-color:#2c8cf9; margin-right:0.2rem; vertical-align:middle;}
+.detail .mTitle span {display:inline-block; vertical-align:middle;}
+.detail .company {padding:0 0.4rem;}
+.detail .company .avatar_box, .detail .company .msg_box {padding-top:0.4rem;}
+.detail .company .msg_box {font-size:0.32rem; color:#666; padding-left:0.4rem; line-height:0.6rem; max-width:8rem;}
+.detail .company .msg_box .title {color:#333; font-size:0.373333rem;}
+.detail .company .msg_box span {margin-right:0.4rem;}
+.detail .btn_box {position:fixed; bottom:0; left:0; width:10rem; height:1.493333;}
+.detail .btn_box .four {width:33.33333%;}
+.detail .btn_box .two {width:66.66666%;}
+.detail .btn_box .mu-raised-button {height:1.493333rem;}
+.detail .address {padding:0.2rem 0.4rem; font-size:0.373333rem; color:#666;}
+
+.introduce {font-size:0.373333rem; padding:0.2rem 0.4rem;}
+.introduce h3 {line-height:1rem;}
+.introduce p {color:#666;}
+
+.reg_box .lf_box {font-size:0.373333rem; width:2rem; color:#666; display:inline-block; text-align:right; margin-right:0.4rem;}
+.reg_box .mu-input {width:7rem;}
+.reg_box .material-icons {color: #2c8cf9;}
+
+.mu-snackbar {padding:0.16rem 0.426667rem; border-radius:0.053333rem; line-height:0.533333rem; font-size:0.373333rem; min-height:0.64rem; min-width:3.84rem; max-width:7.573333rem;}
+.mu-flat-button .mu-button-wrapper {padding:0 0.426667rem;}
+.mu-flat-button {font-size:0.373333rem;}
+.mu-dialog-title {padding:0.32rem 0.32rem 0.266667rem; font-size:0.426667rem; line-height:0.8rem;}
+.mu-dialog {font-size:0.373333rem; border-radius:0.053333rem; width:8rem!important;}
+.mu-dialog-actions {padding:0.213333rem; min-height:0.96rem;}
+
+
+.person_list li {padding:0 0.4rem; color:#2c8cf9; line-height:1.2rem; font-weight:600; line-height:1.2rem; font-size:0.373333rem; border-bottom:0.026667rem solid #dadada;}
+.person_list li .material-icons {line-height:1.2rem;}
+.person_list li .title {padding-left:0.266667rem; color:#666;}
+
+.mu-expansion-panel-header {font-size:0.373333rem; padding:0;}
+.mu-expansion-toggle-btn.mu-button svg {width:0.64rem; height:0.64rem;}
+.mu-expansion-panel-content {padding:0.2rem 0.4rem;}
+.mu-expansion-toggle-btn.mu-button {margin-right:0.4rem;}
+.mu-expansion-panel__expand {margin:0;}
+
+.mu-step-label {font-size:0.32rem; height:1.92rem; padding-left:0.186667rem; padding-right:0.186667rem;}
+.mu-step-label-icon-container {width:0.64rem; margin-right:0.213333rem;}
+.mu-step-label-icon {width:0.64rem; height:0.64rem; font-size:0.64rem;}
+.mu-step-label-circle {width:0.533333rem; height:0.533333rem; font-size:0.32rem; line-height:0.533333rem;}
+.mu-stepper-vertical .mu-step-connector {margin-left:0.46667rem;}
+.mu-stepper-vertical .mu-step-connector-line {min-height:0.746667rem; margin-bottom:0.2rem;}
+.step_box {padding:0.3rem 0;}
+.ac_box {font-size:0.373333rem; line-height:0.96rem; padding-bottom:0.2rem; color:#666;}
+.history .ac_box .mu-primary-color {margin-right:0;}
+
+.setting {padding:0 0.4rem;}
+.setting h3 {font-size:0.426667rem; line-height:1.2rem;}
+.setting li {font-size:0.373333rem; color:#666; float:left; border:0.026667rem solid #2c8cf9; line-height:0.8rem; border-radius:0.106667rem; padding:0 0.2rem; margin-right:0.2rem; margin-bottom:0.2rem;}
+.setting li.active {background-color:#2c8cf9; color:#fff;}
+
+.resume_box {width:8.5rem; padding-left:0.4rem; line-height:1.2rem;}
+.resume_box .title {font-size:0.48rem; color:#333; font-weight:500; line-height:1.2rem;}
+.resume_box .info {line-height:1.2rem; text-decoration:underline; font-size:0.32rem; color:#666;}
+.re_con {font-size:0.373333rem; color:#333; line-height:0.8rem; text-indent:2em;}
+.resume_box .title em {position:relative; top:-0.053333rem;}
+.ed_save {position:absolute; right:0.4rem; font-size:0.346667rem;}
